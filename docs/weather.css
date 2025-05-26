@@ -127,3 +127,39 @@ body {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    padding: 20px 15px;
+  }
+  .search input {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+  .weather h1 {
+    font-size: 50px;
+  }
+  .weather h2 {
+    font-size: 28px;
+  }
+  .weather-icon {
+    width: 120px;
+    margin-top: 20px;
+  }
+  .details {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  .col img {
+    width: 30px;
+  }
+  .humidity, .wind {
+    font-size: 22px;
+  }
+}
+
